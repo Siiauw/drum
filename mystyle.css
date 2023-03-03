@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.drums{
+    align-items: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#hi-hat, #ride {
+    width: 300px;
+    height: 150px;
+    background: rgb(255, 231, 143);
+    border-radius: 300px / 150px;
+    margin: 0 auto;
+}
+#hightam{
+    width: 300px;
+    height: 150px;
+    background: rgb(212, 212, 212);
+    border-radius: 300px / 150px;
+    margin-top: 160px;
+    margin: 0 auto;
+}
+#middletam{
+    width: 300px;
+    height: 150px;
+    background: rgb(212, 212, 212);
+    border-radius: 300px / 150px;
+    margin-top: 160px;
+    margin: 0 auto;
+}
+#lowtam{
+    width: 300px;
+    height: 150px;
+    background: rgb(212, 212, 212);
+    border-radius: 300px / 150px;
+    margin-top: 160px;
+    margin: 0 auto;
+}
+#snare{
+    width: 300px;
+    height: 150px;
+    background: rgb(222, 203, 181);
+    border-radius: 300px / 150px;
+    margin: 0 auto;
+}
+
+#bassdrum{
+    width: 300px;
+    height: 220px;
+    background: rgb(197, 123, 123);
+    border-radius: 300px / 220px;
+    margin: 0 auto;
+}
